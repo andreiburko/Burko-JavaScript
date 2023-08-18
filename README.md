@@ -1,2 +1,2 @@
-# Wine shop
-**To view the project [click here](https://wine-shop-andreiburko.vercel.app/).**
+# Test Task
+**To view the project [click here](https://andreiburko.github.io/Burko-JavaScript/).**
