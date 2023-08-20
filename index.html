@@ -4,8 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test task for Andersen</title>
+
+  <style>
+    .form {
+      width: 30%;
+      margin: 0px auto;
+    }
+
+    .form_item {
+      margin: 10px 0px;
+    }
+
+    input {
+      width: 300px;
+    }
+
+    .form_item:last-child {
+      text-align: center;
+    }
+  </style>
+
 </head>
 <body>
-  <script src="script.js"></script>
+  <form class="form">
+    <fieldset>
+      <legend>Заполните поля</legend>
+
+      <div class="form_item">
+        <label for="number">Введите число:</label>
+        <div>
+          <input id="number" type="text" autofocus>
+        </div>
+      </div>
+
+      <div class="form_item">
+        <label for="name">Введите имя:</label>
+        <div>
+          <input id="name" type="text">
+        </div>
+      </div>
+
+      <div class="form_item">
+        <label for="array">Введите числа для наполнения массива, разделяя их запятыми:</label>
+        <div>
+          <input id="array" type="text">
+        </div>
+      </div>
+
+      <div class="form_item">
+        <button id="btn" type="button">Отправить</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <script src="test-task.js"></script>
 </body>
 </html>
